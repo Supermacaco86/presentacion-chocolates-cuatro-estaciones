@@ -1,0 +1,35 @@
+.navbar {
+    padding: 2.7rem;
+    background-color: rgb(60, 98, 85);
+    height: 140px;
+  } 
+
+  .navbar-titulo {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .nav-link{
+    font-size: 20px;
+    color: #f7f5f4;
+}
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .abajo {
+    height: 20px;
+    background-color: rgb(166, 187, 141);
+  }
+  
+  /* Adaptable responsivo */
+  
+  @media screen and (max-width: 1200px){
+    .navbar-brand{
+        display: none;
+    }
+  }
+  
