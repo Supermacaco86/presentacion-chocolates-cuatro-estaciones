@@ -1,3 +1,41 @@
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-clara {
+    background-color: #fcfbfb;
+    text-align: center;
+}
+
+.seccion-oscura {
+    background-color: #CC704B; 
+    text-align: center;
+}
+
+.seccion-oscura1 {
+    color: white;
+    background-color: #2e2e78;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 1.7rem;
+    padding: 7px 0;
+    text-align: center;
+}
+
+
+
 .navbar {
     padding: 2.7rem;
     background-color: rgb(60, 98, 85);
@@ -24,6 +62,259 @@
     height: 20px;
     background-color: rgb(166, 187, 141);
   }
+
+/* Seccion carrusel */
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.caruosel-imagen {
+    height: 550px;
+    width: 750px;
+}
+
+.carousel-texto {
+    color: white;
+    max-width: 70%;
+    font-size: 60px;
+    text-align: center;
+}
+
+.carousel-titulo1 {
+    font-size: 190px;
+    text-shadow: rgb(36, 35, 33) 10px 0 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    margin-bottom: 100px;
+}
+
+
+.carousel-titulo2 {
+    font-size: 160px;
+    text-shadow: rgb(36, 35, 33) 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-titulo3 {
+    font-size: 160px;
+    text-shadow:  rgb(36, 35, 33) 10px 0 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+}
+
+/* Intermedia */
+
+.intermedia {
+    height: 60px;
+    background-color: rgb(97, 135, 110);
+}
+
+.intermedia1 {
+    height: 20px;
+    background-color:rgb(166, 187, 141);
+}
+
+/* Chocolate es mi pasion */
+
+.chocolate-es-mi-pasion {
+    height: 900px;
+    padding: 10px;
+    background-color: rgb(234, 231, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chocolate-es-mi-pasion .contenedor {
+    max-width: 900px;
+    text-align: center;
+}
+.chocolate-es-mi-pasion .texto {
+    font-size: 1.2rem;
+    padding: 15px 10px;
+}
+
+
+
+/* mis-productos */
+
+.mis-productos {
+    height: 1000px;
+}
+
+/* Contacto */
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(97, 135, 110);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white ;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: rgb(60, 98, 85);
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: rgb(60, 98, 85);
+}
+
+/* Pie de pagina(footer) */
+
+footer {
+    min-height: 500px;
+}
+
+.seccion-footer {
+    height: 130px;
+    background-color: rgb(166, 187, 141);
+}
+.seccion-footer1 {
+    height: 160px;
+    background-color: rgb(234, 231, 177);
+}
+
+.seccion-titulo-footer{
+    color: #ffffff;
+}
+
+.description-footer{
+    color: #ffffff;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30;
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid rgb(60, 98, 85);
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: rgb(60, 98, 85);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(110, 190, 162);
+} 
+
+.iconos-redes-sociales a:hover i {
+    color: rgb(60, 98, 85);
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color:rgb(60, 98, 85);
+    padding: 20px;  
+}
+
+
+/* Resposive */
+
+@media screen and (max-width: 800px){
+    .caruosel-imagen {
+        height: 120px;
+        width: 120px;
+    }    
+    .carousel-texto {
+        font-size: 18px;
+    }
+    .carousel-titulo1 {
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    .carousel-titulo2 {
+        font-size: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    .carousel-titulo3 {
+        font-size: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (min-width: 700px){   
+    .texto {
+        font-size: 18px;
+    }
+}
+
+
   
   /* Adaptable responsivo */
   
