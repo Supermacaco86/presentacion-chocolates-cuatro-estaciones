@@ -123,23 +123,40 @@ section {
     background-color:rgb(166, 187, 141);
 }
 
-/* Chocolate es mi pasion */
+/* seccion info */
 
-.chocolate-es-mi-pasion {
-    height: 900px;
-    padding: 10px;
+.seccion-info {
+    text-align: center;
     background-color: rgb(234, 231, 177);
+}
+
+.seccion-info .chocolate-es-mi-pasion {
+    height: 1000px;
+    padding: 10px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.chocolate-es-mi-pasion .contenedor {
+.seccion-info .chocolate-es-mi-pasion .titulo {
     max-width: 900px;
-    text-align: center;
+    color:rgb(60, 98, 85);
+    font-size: 2.2rem;
+    padding: 15px 10px;
 }
-.chocolate-es-mi-pasion .texto {
+
+.seccion-info .chocolate-es-mi-pasion .subtitulo {
+    max-width: 900px;
+    color:rgb(60, 98, 85);
+    font-size: 1.9rem;
+    padding: 15px 10px;
+}
+
+.seccion-info .chocolate-es-mi-pasion .texto {
+    max-width: 900px;
+    color:rgb(60, 98, 85);
     font-size: 1.2rem;
     padding: 15px 10px;
 }
