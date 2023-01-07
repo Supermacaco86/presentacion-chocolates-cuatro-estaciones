@@ -73,9 +73,14 @@ section {
     height: 500px;
 }
 
-.caruosel-imagen {
+/* .caruosel-imagen {
     height: 550px;
     width: 750px;
+} */
+
+.caruosel-imagen {
+    height: 100%;
+    width: 100%;
 }
 
 .carousel-texto {
@@ -131,9 +136,8 @@ section {
 }
 
 .seccion-info .chocolate-es-mi-pasion {
-    height: 1000px;
-    padding: 10px;
-    
+    height: 900px;
+    padding: 10px;  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,7 +170,42 @@ section {
 /* mis-productos */
 
 .mis-productos {
-    height: 1000px;
+    height: 900px;
+    padding: 35px 35px 60px 35px;
+    color:rgb(60, 98, 85);
+}
+
+.mis-productos .titulo {
+    font-size: 45px;
+    padding-bottom: 60px;
+}
+
+.mis-productos .columna {
+    padding: 20px;
+    border: 2px solid #808080d4;
+    background-color: rgb(234, 231, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.mis-productos .imagen {
+    height: 180px;
+    width: 300px;
+}
+
+.mis-productos .columna:hover {
+    color: white;
+    background-color:rgb(39, 63, 55);
+}
+
+
+.mis-productos-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 /* Contacto */
@@ -340,4 +379,22 @@ footer {
         display: none;
     }
   }
+
+  @media screen and (max-width: 1200px){
+    .seccion-info .chocolate-es-mi-pasion {
+        height: 1400px;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+    .mis-productos {
+        height: 1600px;
+    }  
+    .mis-productos .imagen {
+        height: 90px;
+        width: 150px;
+    }  
+   
+}
+
   
