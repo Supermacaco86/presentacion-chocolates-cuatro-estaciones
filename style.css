@@ -40,6 +40,10 @@ section {
     padding: 2.7rem;
     background-color: rgb(60, 98, 85);
     height: 140px;
+    /* position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; */
   } 
 
   .navbar-titulo {
@@ -67,6 +71,8 @@ section {
 
 .carousel {
     width: 100%;
+    margin-top: 70px;
+
 }
 
 .carousel-item {
