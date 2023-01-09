@@ -350,9 +350,8 @@ footer {
     .carousel {
         height: 100px;
     }
-    .caruosel-imagen {
-        height: 120px;
-        width: 120px;
+    .carousel-inner .carousel-item img {
+        height: 270px;
     } 
 
     .carousel-caption p {
