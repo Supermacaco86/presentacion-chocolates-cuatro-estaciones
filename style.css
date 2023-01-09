@@ -84,6 +84,7 @@ section {
     height: 500px;
 }
 
+
 /* .caruosel-imagen {
     height: 550px;
     width: 750px;
@@ -345,10 +346,19 @@ footer {
 /* Resposive */
 
 @media screen and (max-width: 800px){
+
+    .carousel {
+        height: 100px;
+    }
     .caruosel-imagen {
         height: 120px;
         width: 120px;
-    }    
+    } 
+
+    .carousel-caption p {
+        display: none;
+    }
+       
     .carousel-texto {
         font-size: 18px;
     }
