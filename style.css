@@ -44,7 +44,12 @@ section {
     left: 0;
     right: 0;
     top: 0; */
-  } 
+  }
+  
+  .image-logo {
+    height: 90px;
+    width: 160px;
+  }
 
   .navbar-titulo {
     color: white;
