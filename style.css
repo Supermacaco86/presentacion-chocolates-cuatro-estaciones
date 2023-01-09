@@ -394,9 +394,6 @@ footer {
     }
 }
 
-
-  
-  /* Adaptable responsivo */
   
   @media screen and (max-width: 1200px){
     .navbar-brand{
@@ -412,7 +409,7 @@ footer {
 
   @media screen and (max-width: 800px){
     .mis-productos {
-        height: 1600px;
+        height: 1300px;
     }  
     .mis-productos .imagen {
         height: 90px;
