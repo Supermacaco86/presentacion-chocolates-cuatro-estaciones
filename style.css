@@ -383,6 +383,10 @@ footer {
         justify-content: center;
         margin-bottom: 200px;
     }
+
+    .seccion-info {
+        height: 1300px;
+    }
 }
 
 @media screen and (min-width: 700px){   
