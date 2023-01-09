@@ -124,7 +124,7 @@ section {
     text-shadow:  rgb(36, 35, 33) 10px 0 18px;
     display: flex;
     align-items: flex-start;
-    justify-content: end;
+    justify-content: center;
 }
 
 /* Intermedia */
